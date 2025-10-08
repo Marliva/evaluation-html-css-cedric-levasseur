@@ -11,6 +11,9 @@ la largeur du scroll, sur les navigateurs utilisant chromium.*/
 /*Les formats d'affichage optimaux sont de 380px et 1440px 
 de largeur d'écran. Le breakpoint se fera à partir de 576px*/
 
+/*Pour la version mobile, je n'ai mis aucun cursor: pointer, vu que
+cela ne s'affiche pas sur mobile.*/
+
 /*--------------------------------------------------*/
 
 /*------HEADER------*/
