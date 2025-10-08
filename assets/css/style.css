@@ -1,0 +1,257 @@
+/*HEADER*/
+
+header {
+    width: 100%;
+}
+
+#menu {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.menuList {
+    display: none;
+}
+
+.burger {
+    display: flex;
+    padding-top: 0.6rem;
+    width: 2rem;
+}
+
+#logo {
+    width: 15rem;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 1rem;
+
+}
+
+.panierAvatar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.panierAvatar i {
+    font-size: 1.3rem;
+    margin-right: .5rem;
+}
+
+.avatar {
+    width: 2rem;
+}
+
+.hero {
+    display: none;
+}
+
+.localisation {
+    display: none;
+}
+
+
+/*MAIN*/
+
+main {
+    width: 100%;
+}
+
+/*CARDS*/
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardText {
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: .2rem 1rem;
+}
+
+.cardText h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cardText h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: .7rem;
+}
+
+.cardText p {
+    font-size: .85rem;
+    font-weight: 400;
+    color: var(--gray);
+    padding-right: .85rem;
+}
+
+.cardPrice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.cardPrice h4 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.cardPrice p {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--paleorange);
+    color: var(--orange);
+    padding: .2rem .5rem;
+    border-radius: .5rem;
+    margin-right: 6rem;
+}
+
+.cardPreviousPrice {
+    text-decoration: line-through;
+    text-decoration-color: var(--gray);
+    text-decoration-thickness: 10%;
+    color: var(--gray);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cardQuantity {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: var(--palegray);
+    border-radius: .2rem;
+}
+
+.cardQuantity button {
+    background-color: transparent;
+    border: none;
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: .5rem;
+}
+
+.cardQuantity p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+}
+
+.cardAdd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.cardAdd button {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--orange);
+    border: none;
+    border-radius: .3rem;
+    color: white;
+    box-shadow: 0px 10px 20px 0px #FF7D1A;
+    -webkit-box-shadow: 0px 10px 20px 0px #FF7D1A;
+}
+
+/*SIGN UP*/
+
+#sign {
+    position: relative;
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 2rem 1rem 4rem 1rem;
+    border-radius: .5rem;
+}
+
+.signText {
+    width: 95%;
+    text-align: center;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.signText p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.signButton {
+    position: absolute;
+    top: 6.5rem;
+    right: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.signButton button {
+    border: none;
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    color: var(--orange);
+    text-transform: capitalize;
+    font-weight: 700;
+    box-shadow: 0px 10px 20px 0px #FF7D1A;
+    -webkit-box-shadow: 0px 10px 20px 0px #FF7D1A;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: var(--orange);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footLogo p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.socialMedia {
+    display: flex;
+
+}
+
+.socialMediaImg {
+    font-size: 1.4rem;
+}
+
+.footConditions {
+    display: flex;
+    font-size: .6rem;
+    color: #fff;
+}
