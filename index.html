@@ -11,17 +11,20 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>evaluation-html-css-cedric-levasseur</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
     <header>
-
         <nav id="menu">
             <div class="burger">
-                <img src="./assets/img/icon-hamburger.svg" alt="">
+                <input type="checkbox" id="hamburger">
+                <label id="hamburgerLogo" for="hamburger">
+                    <img src="./assets/img/icon-hamburger.svg" alt="">
+                </label>
             </div>
             <div id="logo">
                 <p>sneakers</p>
@@ -57,9 +60,7 @@
     </header>
 
     <main>
-
         <section id="card">
-
             <div class="cardContainer">
                 <div class="cardImage">
                     <img src="./assets/img/sneakers1.jpg" alt="">
@@ -83,12 +84,10 @@
                     <div class="cardAdd">
                         <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Add to cart</button>
                     </div>
-
                 </div>
             </div>
 
             <div class="cardContainer">
-
                 <div class="cardImage">
                     <img src="./assets/img/sneakers2.jpg" alt="">
                 </div>
@@ -111,13 +110,10 @@
                     <div class="cardAdd">
                         <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Add to cart</button>
                     </div>
-
                 </div>
             </div>
 
-
             <div class="cardContainer">
-
                 <div class="cardImage">
                     <img src="./assets/img/sneakers3.jpg" alt="">
                 </div>
@@ -140,24 +136,35 @@
                     <div class="cardAdd">
                         <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Add to cart</button>
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <section id="sign">
-            <div class="signText">
+        <aside id="signMobile">
+            <div class="signMobileText">
                 <p>Be the first to know about new arrivals</p>
             </div>
-            <div class="signButton">
+            <div class="signMobileButton">
                 <button>Sign up</button>
             </div>
-        </section>
+        </aside>
 
+        <input type="checkbox" id="closeSign">
+        <aside id="signDesktop">
+            <div class="signDesktopCross">
+
+                <label for="closeSign">×</label>
+            </div>
+            <div class="signDesktopText">
+                <p>Be the first to know about new arrivals</p>
+            </div>
+            <div class="signDesktopButton">
+                <button>Sign up</button>
+            </div>
+        </aside>
     </main>
 
     <footer>
-
         <div class="footLogo">
             <p>sneakers</p>
         </div>
@@ -177,11 +184,7 @@
             <p>-</p>
             <a href="">Paramètres des cookies</a>
         </div>
-
-
     </footer>
-
-
 
 </body>
 

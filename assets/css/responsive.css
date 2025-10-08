@@ -1,0 +1,213 @@
+@media screen and (min-width: 576px) {
+
+    /*------HEADER------*/
+    #menu {
+        position: relative;
+        -webkit-box-shadow: 0px 2px 5px 0px var(--gray);
+        box-shadow: 0px 2px 5px 0px var(--gray);
+    }
+
+    #menu .burger {
+        display: none;
+    }
+
+    #menu .menuList {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+
+    #menu .menuList ul {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    #menu .menuList ul li:hover,
+    #logo p:hover,
+    .panierAvatar i:hover,
+    .panierAvatar .avatar img:hover {
+        cursor: pointer;
+    }
+
+    header .hero {
+        display: block;
+        height: 20rem;
+    }
+
+    header .hero .heroImg {
+        background-image: url("../img/skateboarder.jpg");
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    header .hero .heroText {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        font-size: 2.5rem;
+        color: var(--orange);
+    }
+
+    header .localisation {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 1.5rem 0 0 1.5rem;
+        color: var(--gray);
+        font-weight: 700;
+    }
+
+    /*------MAIN------*/
+
+    /*CARDS*/
+
+    #card .cardContainer {
+        flex-direction: row;
+        width: 75%;
+        margin: 3rem auto 5rem auto;
+    }
+
+    #card .cardContainer:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .cardContainer .cardImage {
+        width: 30%;
+    }
+
+    .cardImage img {
+        border-radius: 1rem;
+        width: 100%;
+    }
+
+    .cardContainer .cardText {
+        padding: 0 2rem;
+        width: 80%;
+    }
+
+    .cardText .cardPrice {
+        justify-content: start;
+        flex-wrap: wrap;
+        width: 40%;
+    }
+
+    .cardText .cardPrice p {
+        margin-left: 1rem;
+    }
+
+    .cardAdd button:hover {
+        cursor: pointer;
+    }
+
+    .cardQuantity button:hover {
+        cursor: pointer;
+    }
+
+    /*SIGN UP*/
+
+    main #signMobile {
+        display: none;
+    }
+
+    main #signDesktop {
+        position: fixed;
+        bottom: 1rem;
+        right: 2rem;
+        width: 23%;
+        margin: 0 auto 2rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--orange);
+        padding: 0rem .5rem 4rem .5rem;
+        border-radius: .5rem;
+    }
+
+    #closeSign {
+        display: none;
+    }
+
+    #signDesktop .signDesktopCross {
+        width: 100%;
+        height: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #signDesktop .signDesktopCross p {
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: right;
+    }
+
+    #signDesktop .signDesktopCross p:hover {
+        cursor: pointer;
+    }
+
+    main .signDesktopText {
+        width: 90%;
+        text-align: center;
+        background-color: #fff;
+        padding: .5rem .5rem;
+        border-radius: .5rem;
+    }
+
+    .signDesktopCross label {
+        position: absolute;
+        top: 0;
+        right: .5rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .signDesktopCross label:hover {
+        cursor: pointer;
+    }
+
+    #closeSign:checked~#signDesktop {
+        opacity: 0;
+    }
+
+    main .signDesktopButton {
+        position: absolute;
+        top: 6rem;
+        left: .7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    main .signDesktopButton button {
+        border: none;
+        background-color: #fff;
+        border-radius: .5rem;
+        padding: 1rem 1rem;
+        color: var(--orange);
+        text-transform: capitalize;
+        font-weight: 700;
+        box-shadow: 0px 10px 20px 0px #FF7D1A;
+        -webkit-box-shadow: 0px 10px 20px 0px #FF7D1A;
+    }
+
+    main .signDesktopButton button:hover {
+        cursor: pointer;
+    }
+
+
+    /*------FOOTER------*/
+
+    .footLogo p:hover {
+        cursor: pointer;
+    }
+
+    .socialMediaImg:hover {
+        cursor: pointer;
+    }
+
+}
